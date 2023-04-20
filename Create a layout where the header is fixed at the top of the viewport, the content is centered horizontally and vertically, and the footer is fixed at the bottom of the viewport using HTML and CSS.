@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixed Header </title>
+</head>
+
+<style>
+   body {
+  margin: 0;
+  padding: 0;
+   display: flex; 
+  flex-direction: column; 
+   min-height: 100vh; 
+}
+
+header {
+  background-color: #a16c6c;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer {
+  background-color: #bf9292;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+}
+
+</style>
+
+<body>
+    <header>
+        <h1>Header</h1>
+    </header>
+    <main>
+        <h2>content</h2>
+        <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus neque atque dignissimos quisquam assumenda
+            adipisci repellendus incidunt iusto nemo. Doloribus fuga inventore repudiandae quibusdam ratione labore,
+            totam
+            debitis unde minima?</p>
+    </main>
+
+    <footer>
+        <h1>Footer</h1>
+    </footer>
+</body>
+
+</html>
